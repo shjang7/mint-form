@@ -4,23 +4,34 @@ body {
     sans-serif;
 }
 header {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 90% 10%;
   border: 1px green solid;
-  height: 100px;
+  height: 80px;
+  padding: 20px;
 }
 
-header p {
-  background-color: yellow;
-  position: absolute;
-  right: 10px;
-  padding: 10px;
+header .text {
+  text-align: right;
 }
 
-header input {
-  position: absolute;
-  top: 70px;
-  right: 10px;
-  padding: 10px;
+header button {
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+}
 
+p {
+  margin:0;
+}
+
+button {
+  background: #0077c5;
+  border: #0077c5;
+  border-radius: 4px;
+  text-transform: capitalize;
+  color: white;
 }
 
 main {
@@ -41,6 +52,8 @@ main form {
   background-color: white;
   border: 1px black dotted;
   width: 380px;
+  padding: 50px 10px;
+  margin: 100px;
 }
 
 main .account-info {
@@ -61,14 +74,9 @@ main .account-info input {
 }
 
 main .account-action button {
-  background: #0077c5;
-  border: #0077c5;
-  border-radius: 4px;
-  text-transform: capitalize;
   width: 100%;
   height: 44px;
   font-size: 18px;
-  color: white;
 }
 
 main .account-action button i {
