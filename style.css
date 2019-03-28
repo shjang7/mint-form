@@ -1,0 +1,12 @@
+
+
+.account-info{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  width=200px;
+  background-color: yellow;
+}
+
+.account-info .phone {
+  background-color: blue;
+}
