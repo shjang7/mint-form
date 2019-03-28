@@ -23,7 +23,7 @@ header button {
 }
 
 p {
-  margin:0;
+  margin: 0;
 }
 
 button {
@@ -34,14 +34,14 @@ button {
   color: white;
 }
 
-main {
-  border: 1px blue solid;
-  padding
-}
-
 footer {
   border: 1px red solid;
   background-color: rgb(165, 165, 234);
+}
+
+main {
+  border: 1px blue solid;
+  margin: 20px 0;
 }
 
 main .brand {
@@ -50,10 +50,24 @@ main .brand {
 
 main form {
   background-color: white;
-  border: 1px black dotted;
+
   width: 380px;
-  padding: 50px 10px;
-  margin: 100px;
+  padding: 25px 10px;
+}
+
+main form fieldset {
+  border: none;
+}
+
+main form .title p {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+main form .subtitle {
+  width: 300px;
+  line-height: 20px;
+  font-size: 13px;
 }
 
 main .account-info {
@@ -61,16 +75,30 @@ main .account-info {
   display: grid;
   grid-template-rows: auto auto auto;
   width: 320px;
-  background-color: yellow;
+  font-size: 14px;
+  color: rgb(41, 39, 39);
 }
 
 main .account-info label {
   text-align: left;
+  padding: 15px 0;
 }
 
 main .account-info input {
+  border-radius: 2px;
+  border: 1px solid #cccccc;
+  margin: 8px 0;
   width: 320px;
+  height: 22px;
+  padding: 5px;
+  font-size: 16px;
   background-color: white;
+}
+
+main .account-action .password-icon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
 }
 
 main .account-action button {
