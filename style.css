@@ -1,12 +1,32 @@
+header {
+  border: 1px green solid;
+}
 
+main {
+  border: 1px blue solid;
+  height: 50vh;
+}
 
-.account-info{
+footer {
+  border: 1px red solid;
+}
+
+main .brand {
+  border: 1px black dotted;
+}
+
+main .form {
+  border: 1px black dotted;
+}
+
+main .account-info {
+  margin: 10px;
   display: grid;
   grid-template-rows: auto auto auto;
-  width=200px;
+  width: 320px;
   background-color: yellow;
 }
 
-.account-info .phone {
-  background-color: blue;
+main .account-info .input {
+  background-color: rgb(165, 165, 234);
 }
