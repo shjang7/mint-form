@@ -27,8 +27,8 @@
         </p>
       </div>
 
-      <div>
-        <button name="sign-in">
+      <div name="sign-in">
+        <button>
           <i class="fas fa-unlock-alt"></i>
           Sign in
         </button>
@@ -36,7 +36,7 @@
     </header>
 
     <main>
-      <h1>intiuit</h1>
+      <div class="brand-name"><h1>intiuit</h1></div>
 
       <div class="brand">
         <img src="./assets/image/mint-favicon.svg" alt="mint-logo" />
@@ -75,7 +75,7 @@
           <div class="info">
             <label>
               Email address
-              <input type="email" name="email" required />
+              <input type="email" name="email" value="" required />
             </label>
           </div>
 
@@ -92,7 +92,7 @@
           <div class="info">
             <label>
               Password
-              <input id="password" type="password" name="password" required />
+              <input class="password" type="password" name="password" value="" required />
             </label>
           </div>
         </fieldset>
