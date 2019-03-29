@@ -124,7 +124,7 @@ main .account-info {
   color: rgb(41, 39, 39);
 }
 
-main .account-info label {
+main .account-info .info {
   text-align: left;
   padding: 15px 0;
 }
