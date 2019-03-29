@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://wallpapercave.com/wp/wp1913729.jpg);
+  background-image: url(./assets/wp1913729.jpg);
   background-size: cover;
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
@@ -39,7 +39,6 @@ p {
 
 button {
   background: rgb(72, 204, 83);
-/*  background: #0077c5;*/
   border: #0077c5;
   border-radius: 4px;
   text-transform: capitalize;
@@ -135,10 +134,13 @@ main .account-info input {
   background-color: white;
 }
 
+main .account-info input:focus {
+  box-shadow: 0px 0px 8px 2px #00cc66;
+}
+
 #password {
   background: url(./assets/password.png);
   background-repeat: no-repeat;
-  /*background-position: 2px 2px 2px ;*/
   background-position: 98% center;
   background-size: 20px 20px;
 }
