@@ -56,6 +56,10 @@ a {
 
 main {
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 main h1 {
@@ -88,6 +92,7 @@ main form {
   width: 380px;
   border: 1px rgb(199, 199, 199) solid;
   padding-top: 25px;
+  text-align: center;
 }
 
 main form fieldset {
@@ -107,6 +112,7 @@ main form .subtitle {
   width: 300px;
   line-height: 20px;
   font-size: 13px;
+  margin: 0 40px;
 }
 
 main .account-info {
