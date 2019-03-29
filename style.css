@@ -6,7 +6,7 @@ body {
 header {
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 1fr 150px;
   border: 1px green solid;
   height: 50px;
   padding: 20px;
@@ -14,12 +14,15 @@ header {
 
 header .text {
   text-align: right;
+  font-size: 14px;
+  color: rgb(55, 55, 55);
 }
 
 header button {
   width: 120px;
   height: 40px;
   font-size: 15px;
+  margin: 0 10px;
 }
 
 p {
@@ -32,6 +35,14 @@ button {
   border-radius: 4px;
   text-transform: capitalize;
   color: white;
+}
+
+a {
+  color: rgb(0,0,155);
+}
+
+.subletter {
+  font-size: 10px;
 }
 
 main {
@@ -122,10 +133,6 @@ main form .disclaim {
   height: 50px;
   line-height: 50px;
   color: rgb(150, 150, 150);
-}
-
-.subletter {
-  font-size: 10px;
 }
 
 footer {
