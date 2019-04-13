@@ -1,5 +1,6 @@
 body {
-  background-image: url(./../image/wp1913729.jpg);
+  background-image:linear-gradient(0deg,rgba(255,255,255,.7) 0%,rgba(180,255,112,1) 100%),
+                    url("./../image/leaves-texture1238.jpg");
   background-size: cover;
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
